@@ -1,0 +1,32 @@
+[
+  {
+    "id": 70,
+    "name": "Carrot",
+    "type": "Vegetable",
+    "stocked_at": "2019-07-08T12:00:00.000Z"
+  },
+  {
+    "id": 56,
+    "name": "Parsnip",
+    "type": "Vegetable",
+    "stocked_at": "2019-07-05T12:00:00.000Z"
+  },
+  {
+    "id": 52,
+    "name": "Apple",
+    "type": "Fruit",
+    "stocked_at": "2019-06-24T12:00:00.000Z"
+  },
+  {
+    "id": 48,
+    "name": "Pear",
+    "type": "Fruit",
+    "stocked_at": "2019-06-10T12:00:00.000Z"
+  },
+  {
+    "id": 47,
+    "name": "Banana",
+    "type": "Fruit",
+    "stocked_at": "2019-05-27T12:00:00.000Z"
+  }
+]
