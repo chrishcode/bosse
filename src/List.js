@@ -45,6 +45,7 @@ class List extends React.Component {
   render() {
     return (
       <div>
+        <h1 class="logo">Bosses frukt & grönt</h1>
         <div class="input-group mb-3">
           <select class="custom-select" id="inputGroupSelect01" onChange={this.filterList}>
             <option selected value="All">All</option>
@@ -54,7 +55,7 @@ class List extends React.Component {
         </div>
 
         <div class="input-group mb-3">
-          <select class="custom-select" id="inputGroupSelect01" onChange={this.sortList}>
+          <select  class="custom-select hej" id="inputGroupSelect01" onChange={this.sortList}>
             <option selected value="Latest">Latest</option>
             <option value="Longest">Longest in stock</option>
           </select>

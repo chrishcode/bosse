@@ -31,3 +31,44 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #FDFFFC;
+  font-family: 'Pacifico', cursive;
+}
+
+.list-group {
+  margin: 20px;
+}
+
+.list-group-item {
+  background-color: #F7FAFC;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: #F687B3;
+  padding: 20px;
+  border: none;
+  font-size: 20px;
+}
+
+.badge {
+  background-color: #F687B3;
+  color: #FFFFFF;
+}
+
+.custom-select {
+  background-color: #F7FAFC;
+  border: none;
+  margin: 20px;
+  color: #F687B3;
+  font-size: 20px;
+}
+
+.hej {
+  margin-top: 0px;
+}
+
+.logo {
+  color: #F687B3;
+  margin: 50px;
+}
