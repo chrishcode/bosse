@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-
+var moment = require('moment');
+moment().format();
 
 var data = require('./dataset.json');
 
@@ -60,7 +61,7 @@ class List extends React.Component {
         </div>
 
         <ul class="list-group">
-          {this.state.filterList.map(item => <li class="list-group-item d-flex justify-content-between align-items-center">{item.name}<span class="badge badge-primary badge-pill">{item.stocked_at}</span></li>)}
+          {this.state.filterList.map(item => <li class="list-group-item d-flex justify-content-between align-items-center">{item.name}<span class="badge badge-primary badge-pill">{moment(item.stocked_at).startOf('hour').fromNow()}</span></li>)}
         </ul>
       </div>
     );
